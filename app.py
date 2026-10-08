@@ -22,7 +22,8 @@ st.set_page_config(
 # --------------------------------------------------
 
 model = tf.keras.models.load_model(
-    "nlp_text_classifier_glove_bigru.keras"
+    "final_nlp_model.keras",
+    compile=False
 )
 
 
